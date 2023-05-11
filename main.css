@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1, section h2, #shared-environment {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: rgb(194, 174, 109);
+    padding: 12px;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+}
+
+header img {
+    height: 30px;
+}
+
+header li a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+section h2, #shared-environment {
+    font-size: 26px;
+    font-weight: normal;
+}
+
+#about img {
+    width: 800px;
+    height: 500px;
+    padding: 12px 12px 0px 0;
+}
+
+#about h2, #about p {
+    margin: 12px 0px;
+    text-align: center;
+} 
+
+#photos li {
+    display: inline;
+}
+
+#photos img {
+    height: 350px;
+    width: 423px;
+}
+
+#shared-environment {
+    padding: 24px ;
+text-align: center;
+}
+
+#shared-environment img {
+    height: 15px;
+}
